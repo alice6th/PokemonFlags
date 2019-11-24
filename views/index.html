@@ -4,18 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <title>PokeFlag</title>
   </head>
   <body>
-    <h2>調べたいポケモンの名前を入れてね</h2>
-    <form action="/api/pokemon" method="get">
-      <input
-        type="text"
-        name="name"
-        id="pokemon"
-        placeholder="名前（完全一致）"
-      />
-      <input type="submit" value="送信" />
-    </form>
+    <div id="app">
+      <h2>調べたいポケモンの名前を入れてね</h2>
+
+      <form action="/api/pokemon" method="get" @submit.prevent="getPokeColors">
+        <input v-model="message" placeholder="名前（完全一致）" />
+        <input type="submit" value="送信" />
+      </form>
+
+      <h3>色が似ている国旗</h3>
+      <ul>
+        <li v-for="countrie in countries.data" class="countrie">
+          <p>{{ countrie.name }}</p>
+          <img :src="create_image(countrie.name)" width="200px" height="auto" />
+        </li>
+      </ul>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            info: null,
+            message: "",
+            countries: [],
+          };
+        },
+        mounted() {},
+        methods: {
+          create_image: function(name) {
+            console.log(name);
+            return "/images/flags/" + name + ".png";
+          },
+          getPokeColors: function() {
+            // 本来はajax通信をする
+            console.log("exec");
+            axios.get("/api/pokemon/" + this.message).then(response => {
+              this.countries = response;
+            });
+          },
+        },
+      });
+    </script>
+    <style>
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: none;
+        margin: 0;
+      }
+      ul .countrie {
+        width: 240px;
+        margin: 8px;
+        text-decoration: none;
+      }
+      ul .countrie img {
+        border: 1px solid #333;
+      }
+    </style>
   </body>
 </html>
