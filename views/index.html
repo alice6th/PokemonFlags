@@ -17,12 +17,17 @@
         <input v-model="message" placeholder="名前（完全一致）" />
         <input type="submit" value="送信" />
       </form>
+      <img :src="create_pokemon_image(message)" width="200px" height="auto" />
 
       <h3>色が似ている国旗</h3>
       <ul>
         <li v-for="countrie in countries.data" class="countrie">
           <p>{{ countrie.name }}</p>
-          <img :src="create_image(countrie.name)" width="200px" height="auto" />
+          <img
+            :src="create_flag_image(countrie.name)"
+            width="200px"
+            height="auto"
+          />
         </li>
       </ul>
     </div>
@@ -38,13 +43,16 @@
         },
         mounted() {},
         methods: {
-          create_image: function(name) {
+          create_flag_image: function(name) {
             console.log(name);
             return "/images/flags/" + name + ".png";
           },
+          create_pokemon_image: function(name) {
+            console.log(name);
+            return "/images/pokemons/" + name + ".png";
+          },
           getPokeColors: function() {
             // 本来はajax通信をする
-            console.log("exec");
             axios.get("/api/pokemon/" + this.message).then(response => {
               this.countries = response;
             });

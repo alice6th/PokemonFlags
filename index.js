@@ -33,14 +33,13 @@ app.get("/api/pokemon/:name", (req, res) => {
   const countries = searchAlike(req.params.name);
   console.log({ countries });
   res.send(countries);
-  //   }
 });
 
 app.get("/api/flags/:name", (req, res) => {
   console.log(req.params);
   res.header("Content-Type", "image/jpeg");
 
-  res.sendFile("/images/flags/" + req.params.name);
+  res.sendFile(req.params.name);
   //   }
 });
 
