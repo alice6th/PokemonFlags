@@ -49,7 +49,8 @@
           },
           create_pokemon_image: function(name) {
             console.log(name);
-            return "/images/pokemon/" + name + ".png";
+            if (name) return "/images/pokemon/" + name + ".png";
+            else return "/images/noimage.png";
           },
           getPokeColors: function() {
             // 本来はajax通信をする
