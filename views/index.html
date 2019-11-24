@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PokeFlag</title>
+  </head>
+  <body>
+    <h2>調べたいポケモンの名前を入れてね</h2>
+    <form action="/api/pokemon" method="get">
+      <input
+        type="text"
+        name="name"
+        id="pokemon"
+        placeholder="名前（完全一致）"
+      />
+      <input type="submit" value="送信" />
+    </form>
+  </body>
+</html>

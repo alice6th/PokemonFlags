@@ -1,0 +1,238 @@
+AD	アンドラ公国	ANDORRA	Principality of Andorra
+AE	アラブ首長国連邦	UNITED ARAB EMIRATES	
+AF	アフガニスタン・イスラム国	AFGHANISTAN	Islamic State of Afghanistan
+AG	アンチグア・バーブーダ	ANTIGUA AND BARBUDA	
+AI	アンギラ	ANGUILLA	
+AL	アルバニア共和国	ALBANIA	Republic of Albania
+AM	アルメニア共和国	ARMENIA	Republic of Armenia
+AN	オランダ領アンチル	NETHERLANDS ANTILLES	
+AO	アンゴラ共和国	ANGOLA	Republic of Angola
+AQ	南極	ANTARCTICA	
+AR	アルゼンチン共和国	ARGENTINA	Argentine Republic
+AS	米領サモア	AMERICAN SAMOA	
+AT	オーストリア共和国	AUSTRIA	Republic of Austria
+AU	オーストラリア	AUSTRALIA	
+AW	アルバ	ARUBA	
+AZ	アゼルバイジャン共和国	AZERBAIJAN	Azerbaijani Republic
+BA	(ボスニア・ヘルツェゴビナ共和国)	BOSNIA AND HERZEGOVINA	Republic of Bosnia and Herzegovina
+BB	バルバドス	BARBADOS	
+BD	バングラデシュ人民共和国	BANGLADESH	People's Republic of Bangladesh
+BE	ベルギー王国	BELGIUM	Kingdom of Belgium
+BF	ブルキナファソ	BURKINA FASO	
+BG	ブルガリア共和国	BULGARIA	Republic of Bulgaria
+BH	バーレーン国	BAHRAIN	State of Bahrain
+BI	ブルンジ共和国	BURUNDI	Republic of Burundi
+BJ	ベナン共和国	BENIN	Republic of Benin
+BM	バーミューダ諸島	BERMUDA	
+BN	ブルネイ・ダルサラーム国	BRUNEI DARUSSALAM	
+BO	ボリビア共和国	BOLIVIA	Republic of Bolivia
+BR	ブラジル連邦共和国	BRAZIL	Federative Republic of Brazil
+BS	バハマ国	BAHAMAS	Commonwealth of the Bahamas
+BT	ブータン王国	BHUTAN	Kingdom of Bhutan
+BV	ブーベ島	BOUVET ISLAND	
+BW	ボツワナ共和国	BOTSWANA	Republic of Botswana
+BY	ベラルーシ共和国	BELARUS	Republic of Belarus
+BZ	ベリーズ	BELIZE	
+CA	カナダ	CANADA	
+CC	ココス諸島	COCOS (KEELING) ISLANDS	
+CF	中央アフリカ共和国	CENTRAL AFRICAN REPUBLIC	
+CG	コンゴ共和国	CONGO	Republic of the Congo
+CH	スイス連邦	SWITZERLAND	Swiss Confederation
+CI	コートジボアール共和国	COTE D'IVOIRE	Republic of Cote d'Ivoire
+CK	クック諸島	COOK ISLANDS	
+CL	チリ共和国	CHILE	Republic of Chile
+CM	カメルーン共和国	CAMEROON	Republic of Cameroon
+22	156	中華人民共和国	CHINA	People's Republic of China
+CO	コロンビア共和国	COLOMBIA	Republic of Colombia
+CR	コスタリカ共和国	COSTA RICA	Republic of Costa Rica
+CU	キューバ共和国	CUBA	Republic of Cuba
+CV	カーボベルデ共和国	CAPE VERDE	Republic of Cape Verde
+CX	クリスマス島	CHRISTMAS ISLAND	
+CY	キプロス共和国	CYPRUS	Republic of Cyprus
+CZ	チェコ共和国	CZECH REPUBLIC	
+DE	ドイツ連邦共和国	GERMANY	Federal Republic of Germany
+DJ	ジブチ共和国	DJIBOUTI	Republic of Djibouti
+DK	デンマーク王国	DENMARK	Kingdom of Denmark
+DM	ドミニカ国	DOMINICA	Commonwealth of Dominica
+DO	ドミニカ共和国	DOMINICAN REPUBLIC	
+DZ	アルジェリア民主人民共和国	ALGERIA	People's Democratic Republic of Algeria
+EC	エクアドル共和国	ECUADOR	Republic of Ecuador
+EE	エストニア共和国	ESTONIA	Republic of Estonia
+EG	エジプト・アラブ共和国	EGYPT	Arab Republic of Egypt
+EH	西サハラ	WESTERN SAHARA	
+ER	エリトリア	ERITREA	
+ES	スペイン	SPAIN	Kingdom of Spain
+ET	エチオピア	ETHIOPIA	
+FI	フィンランド共和国	FINLAND	Republic of Finland
+FJ	フィジー共和国	FIJI	Republic of Fiji
+FK	フォークランド(マルビナス)諸島	FALKLAND ISLAND (MALVINAS)	
+FM	ミクロネシア連邦	MICRONESIA (FEDERATED STATES OF)	Federated States of Micronesia
+FO	フェロー諸島	FAROE ISLANDS	
+FR	フランス共和国	FRANCE	French Republic
+FX	フランス本国	FRANCE, METROPOLITAN	
+GA	ガボン共和国	GABON	Gabonese Republic
+GB	グレートブリテン及び北部アイルランド連合王国(英国)	UNITED KINGDOM	United Kingdom of Great Britain and Northern Ireland
+GD	グレナダ	GRENADA	
+GE	グルジア共和国	GEORGIA	Republic of Georgia
+GF	仏領ギアナ	FRENCH GUIANA	Department of Guiana
+GH	ガーナ共和国	GHANA	Republic of Ghana
+GI	ジブラルタル	GIBRALTAR	
+GL	グリーンランド	GREENLAND	
+GM	ガンビア共和国	GAMBIA	Republic of the Gambia
+GN	ギニア共和国	GUINEA	Republic of Guinea
+GP	グアドループ島	GUADELOUPE	Department of Guadeloupe
+GQ	赤道ギニア共和国	EQUATORIAL GUINEA	Republic of Equatorial Guinea
+GR	ギリシア共和国	GREECE	Hellenic Republic
+GS	南ジョージア島・南サンドイッチ諸島	SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS	
+GT	グアテマラ共和国	GUATEMALA	Republic of Guatemala
+GU	グアム	GUAM	
+GW	ギニアビサオ共和国	GUINEA-BISSAU	Republic of Guinea-Bissau
+GY	ガイアナ協同共和国	GUYANA	Republic of Guyana
+HK	ホンコン (香港)	HONG KONG	
+HM	ヘアド島・マクドナルド諸島	HEARD ISLAND AND MCDONALD ISLANDS	
+HN	ホンジュラス共和国	HONDURAS	Republic of Honduras
+HR	クロアチア共和国	CROATIA	Republic of Croatia
+HT	ハイチ共和国	HAITI	Republic of Haiti
+HU	ハンガリー共和国	HUNGARY	Republic of Hungary
+ID	インドネシア共和国	INDONESIA	Republic of Indonesia
+IE	アイルランド	IrelAND	
+IL	イスラエル国	ISRAEL	State of Israel
+IN	インド	INDIA	Republic of India
+IO	英領インド洋地域	BRITISH INDIAN OCEAN TERRITORY	
+IQ	イラク共和国	IRAQ	Republic of Iraq
+IR	イラン・イスラム共和国	IRAN (ISLAMIC REPUBLIC OF)	Islamic Republic of Iran
+IS	アイスランド共和国	ICELAND	Republic of Iceland
+IT	イタリア共和国	ITALY	Italian Republic
+JM	ジャマイカ	JAMAICA	
+JO	ヨルダン・ハシミテ王国	JORDAN	Hashemite Kingdom of Jordan
+JP	日本国	JAPAN	
+KE	ケニア共和国	KENYA	Republic of Kenya
+KG	キルギスタン共和国	KYRGYZSTAN	Kyrgyz Republic
+KH	カンボディア王国	CAMBODIA	Kingdom of Cambodia
+KI	キリバス共和国	KIRIBATI	
+KM	コモロ・イスラム連邦共和国	COMOROS	Islamic Federal Republic of the Comoros
+KN	セントクリストファー・ネイビス	SAINT KITTS AND NEVIS	
+KP	(北朝鮮=朝鮮民主主義人民共和国)	KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF	
+KR	大韓民国	KOREA, REPUBLIC OF	
+KW	クウェート国	KUWAIT	State of Kuwait
+KY	ケイマン諸島	CAYMAN ISLANDS	
+KZ	カザフスタン共和国	KAZAKHSTAN	Republic of Kazakhstan
+LA	ラオス人民民主共和国	LAO PEOPLE'S DEMOCRATIC REPUBLIC	
+LB	レバノン共和国	LEBANON	Lebanese Republic
+LC	セントルシア	SAINT LUCIA	
+LI	リヒテンシュタイン公国	LIECHTENSTEIN	Principality of Liechtenstein
+LK	スリランカ民主社会主義共和国	SRI LANKA	Democratic Socialist Republic of Sri Lanka
+LR	リベリア共和国	LIBERIA	Republic of Liberia
+LS	レソト王国	LESOTHO	Kingdom of Lesotho
+LT	リトアニア共和国	LITHUANIA	Republic of Lithuania
+LU	ルクセンブルク大公国	LUXEMBOURG	Grand Duchy of Luxembourg
+LV	ラトビア共和国	LATVIA	Republic of Latvia
+LY	社会主義人民リビア・アラブ国	LIBYAN ARAB JAMAHIRIYA	Socialist People's Libyan Arab Jamahiriya
+MA	モロッコ王国	MOROCCO	Kingdom of Morocco
+MC	モナコ公国	MONACO	Principality of Monaco
+MD	モルドバ共和国	MOLDOVA, REPUBLIC OF	
+MG	マダガスカル共和国	MADAGASCAR	Republic of Madagascar
+MH	マーシャル諸島共和国	MARSHALL ISLANDS	Republic of the Marshall Islands
+ML	マリ共和国	MALI	Republic of Mali
+MM	ミャンマー連邦	MYANMAR	Union of Myanmar
+MN	モンゴル国	MONGOLIA	
+MO	マカオ(澳門)	MACAU	
+MP	北マリアナ諸島	NORTHERN MARIANA ISLANDS	Commonwealth of the Northern Mariana Islands
+MQ	マルチニーク島	MARTINIQUE	Department of Martinique
+MR	モーリタニア・イスラム共和国	MAURITANIA	Islamic Republic of Mauritania
+MS	モントセラト	MONTSERRAT	
+MT	マルタ共和国	MALTA	Republic of Malta
+MU	モーリシャス共和国	MAURITIUS	Republic of Mauritius
+MV	モルジブ共和国	MALDIVES	Republic of Maldives
+MW	マラウイ共和国	MALAWI	Republic of Malawi
+MX	メキシコ合衆国	MEXICO	United Mexican States
+MY	マレーシア	MALAYSIA	
+MZ	モザンビーク共和国	MOZAMBIQUE	Republic of Mozambique
+NA	ナミビア共和国	NAMIBIA	Republic of Namibia
+NC	ニューカレドニア	NEW CALEDONIA	
+NE	ニジェール共和国	NIGER	Republic of Niger
+NF	ノーフォーク島	NORFOLK ISLAND	
+NG	ナイジェリア連邦共和国	NIGERIA	Federal Republic of Nigeria
+NI	ニカラグア共和国	NICARAGUA	Republic of Nicaragua
+NL	オランダ王国	NETHERLANDS	Kingdom of the Netherlands
+NO	ノルウェー王国	NORWAY	Kingdom of Norway
+NP	ネパール王国	NEPAL	Kingdom of Nepal
+NR	ナウル共和国	NAURU	Republic of Nauru
+NU	ニウエ	NIUE	
+NZ	ニュージーランド	NEW ZEALAND	
+OM	オマーン国	OMAN	Sultanate of Oman
+PA	パナマ共和国	PANAMA	Republic of Panama
+PE	ペルー共和国	PERU	Republic of Peru
+PF	仏領ポリネシア	FRENCH POLYNESIA	
+PG	パプアニューギニア	PAPUA NEW GUINEA	
+PH	フィリピン共和国	PHILIPPINES	Republic of the Philippines
+PK	パキスタン・イスラム共和国	PAKISTAN	Islamic Republic of Pakistan
+PL	ポーランド共和国	POLAND	Republic of Poland
+PM	サンピエール島・ミクロン島	SAINT PIERRE AND MIQUELON	Territorial collectivity of St. Pierre and Miquelon
+PN	ピトケアン島	PITCAIRN	
+PR	プエルトリコ	PUERTO RICO	
+PT	ポルトガル共和国	PORTUGAL	Portuguese Republic
+PW	パラオ	PALAU	Republic of Palau
+PY	パラグアイ共和国	PARAGUAY	Republic of Paraguay
+QA	カタール国	QATAR	State of Qatar
+RE	レユニオン	REUNION	Department of Reunion
+RO	ルーマニア	ROMANIA	
+RU	ロシア連邦	RUSSIAN FEDERATION	
+RW	ルワンダ共和国	RWANDA	Rwandese Republic
+SA	サウジアラビア王国	SAUDI ARABIA	Kingdom of Saudi Arabia
+SB	ソロモン諸島	SOLOMON ISLANDS	
+SC	セイシェル共和国	SEYCHELLES	Republic of Seychelles
+SD	スーダン共和国	SUDAN	Republic of the Sudan
+SE	スウェーデン王国	SWEDEN	Kingdom of Sweden
+SG	シンガポール共和国	SINGAPORE	Republic of Singapore
+SH	セントヘレナ島	SAINT HELENA	
+SI	スロベニア共和国	SLOVENIA	Republic of Slovenia
+SJ	スバールバル諸島・ヤンマイエン島	SVALBARD AND JAN MAYEN	
+SK	スロバキア共和国	SLOVAKIA	Slovak Republic
+SL	シエラレオネ共和国	SIERRA LEONE	Republic of Sierra Leone
+SM	サンマリノ共和国	SAN MARINO	Republic of San Marino
+SN	セネガル共和国	SENEGAL	Republic of Senegal
+SO	ソマリア民主共和国	SOMALIA	Somali Democratic Republic
+SR	スリナム共和国	SURINAME	Republic of Suriname
+ST	サントメ・プリンシペ民主共和国	SAO TOME AND PRINCIPE	Democratic Republic of Sao Tome and Principe
+SV	エルサルバドル共和国	EL SALVADOR	Republic of El Salvador
+SY	シリア・アラブ共和国	SYRIAN ARAB REPUBLIC	
+SZ	スワジランド王国	SWAZILAND	Kingdom of Swaziland
+TC	タークス諸島・カイコス諸島	TURKS AND CAICOS ISLANDS	
+TD	チャド共和国	CHAD	Republic of Chad
+TF	仏領極南諸島	FRENCH SOUTHERN TERRITORIES	
+TG	トーゴ共和国	TOGO	Togolese Republic
+TH	タイ王国	THAILAND	Kingdom of Thailand
+TJ	タジキスタン共和国	TAJIKISTAN	Republic of Tajikistan
+TK	トケラウ諸島	TOKELAU	
+TM	トルクメニスタン	TURKMENISTAN	
+TN	チュニジア共和国	TUNISIA	Republic of Tunisia
+TO	トンガ王国	TONGA	Kingdom of Tonga
+TP	東チモール	EAST TIMOR	
+TR	トルコ共和国	TURKEY	Republic of Turkey
+TT	トリニダード・トバゴ共和国	TRINIDAD AND TOBAGO	Republic of Trinidad and Tobago
+TV	ツバル	TUVALU	
+TW	台湾	TAIWAN, PROVINCE OF CHINA	
+TZ	タンザニア連合共和国	TANZANIA, UNITED REPUBLIC OF	
+UA	ウクライナ	UKRAINE	
+UG	ウガンダ共和国	UGANDA	Republic of Uganda
+UM	米領太平洋諸島	UNITED STATES MINOR OUTLYING ISLANDS	
+53	840	アメリカ合衆国(米国)	UNITED STATES	United States of America
+UY	ウルグアイ東方共和国	URUGUAY	Eastern Republic of Uruguay
+UZ	ウズベキスタン共和国	UZBEKISTAN	Republic of Uzbekistan
+VA	バチカン市国	VATICAN CITY STATE (HOLY SEE)	
+VC	セントビンセント及びグレナディーン諸島	SAINT VINCENT AND THE GRENADINES	
+VE	ベネズエラ共和国	VENEZUELA	Republic of Venezuela
+VG	英領バージン諸島	VIRGIN ISLANDS (BRITISH )	
+VI	米領バージン諸島	VIRGIN ISLANDS (U.S.)	Virgin Islands of the United States
+VN	ベトナム社会主義共和国	VIET NAM	Socialist Republic of Viet Nam
+VU	バヌアツ共和国	VANUATU	Republic of Vanuatu
+WF	ワリス・フテュナ諸島	WALLIS AND FUTUNA ISLANDS	
+WS	西サモア	SAMOA	Independent State of Western Samoa
+YE	イエメン共和国	YEMEN	Republic of Yemen
+YT	マイヨット島	MAYOTTE	Territorial collectivity of Mayotte
+YU	(ユーゴスラビア連邦共和国)	YUGOSLAVIA	Federal Republic of Yugoslavia
+48	710	南アフリカ共和国	SOUTH AFRICA	Republic of South Africa
+ZM	ザンビア共和国	ZAMBIA	Republic of Zambia
+ZR	ザイール共和国	ZAIRE	Republic of Zaire
+ZW	ジンバブエ共和国	ZIMBABWE	Republic of Zimbabwe
