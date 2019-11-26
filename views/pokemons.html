@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.0.6/chroma.min.js"></script>
+    <title>PokeFlag</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- {{pokemons}} -->
+      <li v-for="pokemon in pokemons.data" class="pokemons">
+        <p>{{ pokemon.name }}</p>
+        <img
+          :src="create_pokemon_image(pokemon.name)"
+          width="200px"
+          height="auto"
+        />
+        <p :style="colorBox(pokemon.color[0])" style="width=100px;height=100px">
+          {{colorBox(pokemon.color[0])}}
+        </p>
+        <p :style="colorBox(pokemon.color[1])" style="width=100px;height=100px">
+          {{pokemon.color[1]}}
+        </p>
+        <p :style="colorBox(pokemon.color[2])" style="width=100px;height=100px">
+          {{pokemon.color[2]}}
+        </p>
+        <p :style="colorBox(pokemon.color[3])" style="width=100px;height=100px">
+          {{pokemon.color[3]}}
+        </p>
+        <p :style="colorBox(pokemon.color[4])" style="width=100px;height=100px">
+          {{pokemon.color[4]}}
+        </p>
+
+        <!-- <ul>
+          <li>
+            <div width="100px" height="100px" class="color_box">
+              {{pokemon.color[0]}}
+            </div>
+          </li>
+          <li>{{pokemon.color[1]}}</li>
+          <li>{{pokemon.color[2]}}</li>
+          <li>{{pokemon.color[3]}}</li>
+          <li>{{pokemon.color[4]}}</li>
+        </ul> -->
+      </li>
+
+      <h2>調べたいポケモンの名前を入れてね</h2>
+
+      <form action="/api/pokemon" method="get" @submit.prevent="getPokeColors">
+        <input v-model="message" placeholder="名前（完全一致）" />
+        <input type="submit" value="送信" />
+      </form>
+      <img :src="create_pokemon_image(message)" width="200px" height="auto" />
+      <!-- 
+      <h3>色が似ているかもしれない国旗</h3>
+      <ul>
+        <li v-for="countrie in countries.data" class="countrie">
+          <p>{{ countrie.name }}</p>
+          <img
+            :src="create_flag_image(countrie.name)"
+            width="200px"
+            height="auto"
+          />
+        </li>
+      </ul> -->
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            info: null,
+            message: "",
+            countries: [],
+            pokemons: {},
+          };
+        },
+        mounted() {
+          axios.get("/api/pokemon/all" + this.message).then(response => {
+            this.pokemons = response;
+          });
+        },
+
+        created() {
+          const colorBoxs = document.getElementsByClassName("color_box");
+          //   const elements = Array.from(colorBoxs);
+          //   //   console.log(elements.length);
+          //   [...colorBoxs].forEach(item => {
+          //     // 処理
+          //     console.log(item);
+          //   });
+        },
+        methods: {
+          create_flag_image: function(name) {
+            console.log(name);
+            return "/images/flags/" + name + ".png";
+          },
+          create_pokemon_image: function(name) {
+            // console.log(name);
+            if (name) return "/images/pokemon/" + name + ".png";
+            else return "/images/noimage.png";
+          },
+          getPokeColors: function() {
+            // 本来はajax通信をする
+            axios.get("/api/pokemon/" + this.message).then(response => {
+              this.countries = response;
+            });
+          },
+          colorBox: color => {
+            console.log(color);
+            const rgb = chroma(color).hsl();
+            console.log({ rgb });
+            return (
+              "background-color:hsla(" +
+              rgb[0] +
+              "," +
+              rgb[1] * 100 +
+              "%," +
+              rgb[2] * 100 +
+              "%,1)"
+            );
+          },
+        },
+      });
+    </script>
+    <style>
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: none;
+        margin: 0;
+      }
+      ul .countrie {
+        width: 240px;
+        margin: 8px;
+        text-decoration: none;
+      }
+      ul .countrie img {
+        border: 1px solid #333;
+      }
+      .color_box {
+        width: 100px;
+        height: 100px;f
+        /* background-color: #333; */
+      }
+    </style>
+  </body>
+</html>

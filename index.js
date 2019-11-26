@@ -8,10 +8,15 @@ app.use("/images", express.static("images"));
 const searchAlike = require("./searchAlike");
 
 const pokemons = require("./data/pokemoncolor.json");
+const flags = require("./data/flgascolor.json");
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/index.html");
 });
+app.get("/pokemons", (req, res) => {
+  res.sendFile(__dirname + "/views/pokemons.html");
+});
+
 app.get("/api/pokemon", (req, res) => {
   res.header("Content-Type", "application/json; charset=utf-8");
 
@@ -23,6 +28,19 @@ app.get("/api/pokemon", (req, res) => {
   res.send(countries);
   res.send(req.query);
 });
+app.get("/api/pokemon/all", (req, res) => {
+  console.log(req.route);
+  res.header("Content-Type", "application/json; charset=utf-8");
+
+  res.send(pokemons);
+});
+app.get("/api/flag/all", (req, res) => {
+  console.log(req.route);
+  res.header("Content-Type", "application/json; charset=utf-8");
+
+  res.send(flags);
+});
+
 app.get("/api/pokemon/:name", (req, res) => {
   console.log(req.params);
   res.header("Content-Type", "application/json; charset=utf-8");

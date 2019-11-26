@@ -11,6 +11,7 @@ imageList.forEach(async image => {
   //console.log({ pokemonName });
   const imageUrl = path.join(baseDir, image);
   const getColor = async url => {
+    // const color = await getDominantColor(url);
     const color = await getDominantColorHSV(url);
     return color;
   };
